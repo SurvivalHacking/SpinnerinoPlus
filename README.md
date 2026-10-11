@@ -13,8 +13,6 @@ Un progetto di Marco Prunca basato su ESP32-P4.
 
 🎥 Video tutorial: https://youtu.be/VE9SN8RUckk
 
-
-
 ---
     COMANDI:
  
@@ -39,12 +37,10 @@ Un progetto di Marco Prunca basato su ESP32-P4.
     FILE MANAGER:     Attraverso questa funzione è possibile tramite il WIFI colegarsi allo spinnerino per aggiornare i file sulla SD-Interna
  
  
- Una volta recuperati tutti i file ZIP inseriteli nella cartella SPINNERINO\ROMS
  
- * Per convertire le ROM:
+---
+## CONVERSIONE ROM
 
-COSA DEVI FARE
---------------
   1. Metti le tue ROM MAME in formato ZIP dentro     ROMS\
      L'elenco completo dei file lo trovi nel file leggimi.txt nella cartello \ROMS
 
