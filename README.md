@@ -12,7 +12,7 @@ Un progetto di Marco Prunca basato su ESP32-P4.
 
 <img width="1365" height="768" alt="IMMfozfteeKR8" src="https://github.com/user-attachments/assets/22dfa851-767b-458c-8899-96cc7aa844d3" />
 
-
+---
 NOTA: E' stato aggiornato il convertitore che ora funziona anche su MAC e Linux oltre che windows e ha una GUI per rendere più comprensibile tutto il processo. grazie a Alessandro Porcheddu
 <img width="1019" height="777" alt="IMAGE 2026-10-11 22:38:37" src="https://github.com/user-attachments/assets/2b06737d-611c-4598-9fe0-18fb22e36287" />
 
