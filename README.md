@@ -70,7 +70,7 @@ Un progetto di Marco Prunca basato su ESP32-P4.
 ---
 ## 🎛️ Schema pratico di assemblaggio
 
-[SpinnerinoPlus.pdf](https://github.com/user-attachments/files/33302311/SpinnerinoPlus.pdf)
+<img width="2279" height="1602" alt="Schema" src="https://github.com/user-attachments/assets/52867bbd-449f-434d-8aaf-63b3983564f1" />
 
 ---
 ## 🎛️ Materiali
