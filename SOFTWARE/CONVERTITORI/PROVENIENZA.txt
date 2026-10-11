@@ -1,0 +1,75 @@
+CONVERTITORI RECUPERATI DAGLI ALTRI PROGETTI
+copiati: 28
+
+(radice)         1/ 2  (radice)__convert_spaceinvaders_logo.py
+                 da: PROGETTI SH\SPINNERINO PLUS WIFI\BACKUP SPINNERINO PLUS\PY\convert_spaceinvaders_logo.py
+                 NON copre: ace_rom.h
+1942            11/11  mk_1942test.py   [!] e' un BANCO DI PROVA, non un convertitore
+                 da: PROGETTI SH\CABINATONE\_verify_gfx\c1942_harness\mk_1942test.py
+arkanoid2        6/ 6  arkanoid2__romconv_arkanoid2.py
+                 da: PROGETTI SH\SPINNERINO DAVIDE ORIGINALE\SPINNERINO\ROM_CONVERTER\romconv_arkanoid2.py
+boblbobl         3/ 3  boblbobl__romconv_boblbobl.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_boblbobl.py
+bombjack         6/ 6  romconv_bombjack.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_bombjack.py
+brubber          5/ 5  romconv_brubber.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_brubber.py
+dkong           13/13  romconv_dkong.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_dkong.py
+dkongjr          5/ 6  romconv_dkongjr.py
+                 da: PROGETTI SH\CABINATONE\romconv_dkongjr.py
+                 NON copre: dkongjr_oled_logo.h
+fantasy          4/ 5  romconv_fantasy.py
+                 da: PROGETTI SH\GALAGINO PROGETTO ORIGINALE\ULTIMO DI DAVIDE\ULTIMO ULTIMO\PROGETTO ULTIMO\Files_FULL33\source\src\romconv_fantasy.py
+                 NON copre: fantasy_oled_logo.h
+frogger          4/ 4  romconv_frogger.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_frogger.py
+galaga           4/ 4  romconv_galaga.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_galaga.py
+galaxian         1/ 1  galaxian__romconv_galaxian.py
+                 da: PROGETTI SH\SPINNERINO\SPINNERINO NEW P4p\SPINNERINO\FILE ROMCONV PY\romconv_galaxian.py
+gng              7/ 7  romconv_gng.py
+                 da: PROGETTI SH\GALAGINO PROGETTO ORIGINALE\ULTIMO DI DAVIDE\ULTIMO ULTIMO\PROGETTO ULTIMO\Files_FULL33\source\src\romconv_gng.py
+greenberet       4/ 4  romconv_greenberet.py
+                 da: PROGETTI SH\GALAGONE PAOLO ULTIMO\GALAGONE_4.3_P4_NEW_multi\machines\greenberet\romconv_greenberet.py
+gyruss          NESSUN CANDIDATO  -> DA SCRIVERE: gyruss_logo.h
+ladybug          3/ 3  ladybug_rom_convert.py
+                 da: PROGETTI SH\GALAGINO PROGETTO ORIGINALE\ULTIMO DI DAVIDE\ULTIMO ULTIMO\galagino3-main\romconv\ladybug\ladybug_rom_convert.py
+mariobros        6/ 6  romconv_mariobros.py
+                 da: PROGETTI SH\GALAGONE PAOLO ULTIMO\GALAGONE_4.3_P4_NEW_multi\romconv\romconv_mariobros.py
+mooncresta       3/ 3  mooncresta_rom_convert.py
+                 da: PROGETTI SH\SPECK OILER PROJECT\galagino-main\romconv\mooncresta\mooncresta_rom_convert.py
+moonpatrol       6/ 6  romconv_moonpatrol_h2bin.py
+                 da: PROGETTI SH\FILE PY GIOCHI\NUOVO GALAGONE PAOLO 1504\GALAGONE 1804 SERA\GALAGONE\GALAGONE_4.3_P4_NEW_multi\romconv_moonpatrol_h2bin.py
+mspacman         4/ 4  mspacman_rom_convert.py
+                 da: PROGETTI SH\GALAGINO PROGETTO ORIGINALE\ULTIMO DI DAVIDE\ULTIMO ULTIMO\galagino3-main\romconv\mspacman\mspacman_rom_convert.py
+nibbler          3/ 4  romconv_nibbler.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_nibbler.py
+                 NON copre: nibbler_oled_logo.h
+pacman           3/ 3  romconv_pacman.py
+                 da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_pacman.py
+pbaction         5/ 5  bin2h_pbaction.py
+                 da: PROGETTI SH\CONSOLE_QUADRA_NANO\bin2h_pbaction.py
+phoenix          1/ 1  phoenix__convert_phoenix_logo.py
+                 da: PROGETTI SH\CONSOLE_QUADRA_NANO\convert_phoenix_logo.py
+roadfighter      1/ 1  convert_roadfighter_logo.py
+                 da: PROGETTI SH\SPINNERINO\convert_roadfighter_logo.py
+scramble         4/ 4  romconv_scramble.py
+                 da: PROGETTI SH\GALAGONE PAOLO ULTIMO\GALAGONE_4.3_P4_NEW_multi\romconv\romconv_scramble.py
+tempest          1/ 1  tempest__convert_arcade_logos.py
+                 da: PROGETTI SH\SPINNERINO\SPINNERINO NEW P4p\SPINNERINO\FILE ROMCONV PY\convert_arcade_logos.py
+timeplt          4/ 4  timeplt_rom_convert.py
+                 da: PROGETTI SH\GALAGINO PROGETTO ORIGINALE\ULTIMO DI DAVIDE\ULTIMO ULTIMO\galagino3-main\romconv\timeplt\timeplt_rom_convert.py
+xevious         11/16  romconv_xevious.py
+                 da: PROGETTI SH\FILE PY GIOCHI\MICRO GALAGINO\micro_galagino\romconv_xevious.py
+                 NON copre: xevious_bgmap.h, xevious_bgtiles.h, xevious_bg_rom2c.h, xevious_scrolltable.h, xevious_sr3.h
+
+======================================================================
+RESTA APERTO
+======================================================================
+(radice)       ace_rom.h
+dkongjr        dkongjr_oled_logo.h
+fantasy        fantasy_oled_logo.h
+gyruss         gyruss_logo.h
+nibbler        nibbler_oled_logo.h
+xevious        xevious_bgmap.h, xevious_bgtiles.h, xevious_bg_rom2c.h, xevious_scrolltable.h, xevious_sr3.h

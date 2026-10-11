@@ -1,0 +1,23 @@
+# xevious_bgdata.h - correzioni fatte a mano nel progetto che GIRA,
+# che il convertitore non puo' ricavare dalla ROM.
+# posizione <TAB> valore giusto
+15028	0x91
+15029	0x92
+15032	0x93
+15033	0x94
+15036	0x9b
+15037	0x9a
+15040	0x99
+15041	0x9f
+15429	0xaa
+15435	0xaa
+15439	0xaa
+15441	0xaa
+15445	0xaa
+15456	0xaa
+15463	0xaa
+15472	0xaa
+15563	0xaa
+15571	0xaa
+15933	0xaa
+15961	0xaa

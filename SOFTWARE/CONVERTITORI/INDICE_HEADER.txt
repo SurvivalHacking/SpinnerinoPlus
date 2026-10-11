@@ -1,0 +1,328 @@
+# nome <TAB> percorso <TAB> dichiarazione <TAB> n_elementi
+# generato da fai_indice.py leggendo il progetto vivo
+1942_character_cmap.h	machines\1942\1942_character_cmap.h	const unsigned short _1942_colormap_chars[0][4]	0
+1942_charmap.h	machines\1942\1942_charmap.h	const unsigned short _1942_charmap[0][8]	0
+1942_logo.h	machines\1942\1942_logo.h	const unsigned short _1942_logo[4184]	4184
+1942_rom1.h	machines\1942\1942_rom1.h	const unsigned char _1942_rom_cpu1[32768]	32768
+1942_rom1_b0.h	machines\1942\1942_rom1_b0.h	const unsigned char _1942_rom_cpu1_b0[16384]	16384
+1942_rom1_b1.h	machines\1942\1942_rom1_b1.h	const unsigned char _1942_rom_cpu1_b1[8192]	8192
+1942_rom1_b2.h	machines\1942\1942_rom1_b2.h	const unsigned char _1942_rom_cpu1_b2[16384]	16384
+1942_rom2.h	machines\1942\1942_rom2.h	const unsigned char _1942_rom_cpu2[16384]	16384
+1942_sprite_cmap.h	machines\1942\1942_sprite_cmap.h	const unsigned short _1942_colormap_sprites[0][4]	0
+1942_spritemap.h	machines\1942\1942_spritemap.h	const unsigned long _1942_sprites[0][32]	0
+1942_tile_cmap.h	machines\1942\1942_tile_cmap.h	const unsigned short _1942_colormap_tiles[0][32][8]	0
+1942_tilemap.h	machines\1942\1942_tilemap.h	const unsigned long _1942_tilemap[0][512][32]	0
+_1942_grid_logo.h	_1942_grid_logo.h	const unsigned short _1942_grid_logo[72*48]	3456
+_1944_grid_logo.h	_1944_grid_logo.h	const unsigned short _1944_grid_logo[72*48]	3456
+ace_grid_logo.h	ace_grid_logo.h	const unsigned short ace_grid_logo[94*62]	5828
+ace_rom.h	ace_rom.h	static const uint8_t ACE_ROM[ACE_ROM_SIZE]	40960
+arkanoid2_gfx_decoded.h	machines\arkanoid2\arkanoid2_gfx_decoded.h	const uint8_t arkanoid2_gfx_decoded[1048576]	1048576
+arkanoid2_gfx_p0.h	machines\arkanoid2\arkanoid2_gfx_p0.h	const uint8_t arkanoid2_gfx_p0[131072]	131072
+arkanoid2_gfx_p1.h	machines\arkanoid2\arkanoid2_gfx_p1.h	const uint8_t arkanoid2_gfx_p1[131072]	131072
+arkanoid2_gfx_p2.h	machines\arkanoid2\arkanoid2_gfx_p2.h	const uint8_t arkanoid2_gfx_p2[131072]	131072
+arkanoid2_gfx_p3.h	machines\arkanoid2\arkanoid2_gfx_p3.h	const uint8_t arkanoid2_gfx_p3[131072]	131072
+arkanoid2_logo.h	machines\arkanoid2\arkanoid2_logo.h	const unsigned short arkanoid2_logo[224*96]	21504
+arkanoid2_palette.h	machines\arkanoid2\arkanoid2_palette.h	const unsigned short arkanoid2_palette[512]	512
+arkanoid2_rom_main.h	machines\arkanoid2\arkanoid2_rom_main.h	const uint8_t arkanoid2_rom_main[65536]	65536
+arkanoid2_rom_sub.h	machines\arkanoid2\arkanoid2_rom_sub.h	const uint8_t arkanoid2_rom_sub[65536]	65536
+arkanoid_logo.h	machines\arkanoid\arkanoid_logo.h	const unsigned short arkanoid_logo[224*96]	21504
+arkanoid_palette.h	machines\arkanoid\arkanoid_palette.h	const unsigned short arkanoid_palette[513]	513
+arkanoid_rom_cpu.h	machines\arkanoid\arkanoid_rom_cpu.h	const unsigned char arkanoid_rom_cpu[65537]	65537
+arkanoid_tilemap.h	machines\arkanoid\arkanoid_tilemap.h	const unsigned long arkanoid_tilemap[4096][8]	32768
+boblbobl_gfx_decoded.h	machines\boblbobl\boblbobl_gfx_decoded.h	const uint8_t boblbobl_gfx_decoded[1048576]	1048576
+boblbobl_grid_logo.h	boblbobl_grid_logo.h	const unsigned short boblbobl_grid_logo[72*48]	3456
+boblbobl_prom.h	machines\boblbobl\boblbobl_prom.h	const uint8_t boblbobl_prom[256]	256
+boblbobl_rom_audio.h	machines\boblbobl\boblbobl_rom_audio.h	const uint8_t boblbobl_rom_audio[32768]	32768
+boblbobl_rom_main.h	machines\boblbobl\boblbobl_rom_main.h	const uint8_t boblbobl_rom_main[196608]	196608
+boblbobl_rom_sub.h	machines\boblbobl\boblbobl_rom_sub.h	const uint8_t boblbobl_rom_sub[32768]	32768
+bombbee_gfx.h	machines\bombbee\bombbee_gfx.h	const unsigned char bombbee_gfx[2048]	2048
+bombbee_logo.h	machines\bombbee\bombbee_logo.h	const unsigned short bombbee_logo[224*96]	21504
+bombbee_rom.h	machines\bombbee\bombbee_rom.h	const unsigned char bombbee_rom[8192]	8192
+bombjack_bg_maps.h	machines\bombjack\bombjack_bg_maps.h	const unsigned char bombjack_bg_maps[8192]	8192
+bombjack_bg_tiles.h	machines\bombjack\bombjack_bg_tiles.h	const unsigned long bombjack_bg_tiles[256][32]	8448
+bombjack_fg_tiles.h	machines\bombjack\bombjack_fg_tiles.h	const unsigned long bombjack_fg_tiles[512][8]	4608
+bombjack_grid_logo.h	bombjack_grid_logo.h	const unsigned short bombjack_grid_logo[72*48]	3456
+bombjack_logo.h	machines\bombjack\bombjack_logo.h	const unsigned short bombjack_logo[6914]	6914
+bombjack_rom1.h	machines\bombjack\bombjack_rom1.h	const unsigned char bombjack_rom_cpu1[65536]	65536
+bombjack_rom2.h	machines\bombjack\bombjack_rom2.h	const unsigned char bombjack_rom_cpu2[16384]	16384
+bombjack_sprites.h	machines\bombjack\bombjack_sprites.h	const unsigned long bombjack_sprites_16x16[256][32]	16706
+brubber_bgmap.h	machines\brubber\brubber_bgmap.h	const unsigned long brubber_bgmap[64][32]	2048
+brubber_grid_logo.h	brubber_grid_logo.h	const unsigned short brubber_grid_logo[72*48]	3456
+brubber_logo.h	machines\brubber\brubber_logo.h	const unsigned short brubber_logo[9714]	9714
+brubber_rom.h	machines\brubber\brubber_rom.h	const unsigned char brubber_rom[16385]	16385
+brubber_snd_rom.h	machines\brubber\brubber_snd_rom.h	const unsigned char brubber_snd_rom[4097]	4097
+brubber_spritemap.h	machines\brubber\brubber_spritemap.h	const unsigned long brubber_spritemap[4][256][32]	32768
+brubber_tilemap.h	machines\brubber\brubber_tilemap.h	const unsigned long brubber_tilemap[1024][8]	8192
+commando_charmap.h	machines\commando\commando_charmap.h	const unsigned short commando_charmap[8193]	8193
+commando_grid_logo.h	commando_grid_logo.h	const unsigned short commando_grid_logo[72*48]	3456
+commando_logo.h	machines\commando\commando_logo.h	const unsigned short commando_logo[20557]	20557
+commando_rom_cpu1.h	machines\commando\commando_rom_cpu1.h	const unsigned char commando_rom_cpu1[49153]	49153
+commando_rom_cpu1_op.h	machines\commando\commando_rom_cpu1_op.h	const unsigned char commando_rom_cpu1_op[49153]	49153
+commando_rom_cpu2.h	machines\commando\commando_rom_cpu2.h	const unsigned char commando_rom_cpu2[16385]	16385
+commando_spritemap.h	machines\commando\commando_spritemap.h	const unsigned long commando_spritemap[98305]	98305
+commando_tilemap.h	machines\commando\commando_tilemap.h	const unsigned long commando_tilemap[32769]	32769
+dkong3_cmap.h	machines\dkong3\dkong3_cmap.h	const unsigned short dkong3_colormap_sprite[64][4]	256
+dkong3_color_codes.h	machines\dkong3\dkong3_color_codes.h	const unsigned char PROGMEM color_codes_prom[256]	256
+dkong3_grid_logo.h	dkong3_grid_logo.h	const unsigned short dkong3_grid_logo[72*48]	3456
+dkong3_logo.h	machines\dkong3\dkong3_logo.h	const unsigned short dkong3_logo[3142]	3142
+dkong3_rom.h	machines\dkong3\dkong3_rom.h	const unsigned char dkong3_rom_cpu[65536]	65536
+dkong3_sound_roms.h	machines\dkong3\dkong3_sound_roms.h	const unsigned char PROGMEM dkong3_rom_sound_a[8192]	16385
+dkong3_spritemap.h	machines\dkong3\dkong3_spritemap.h	const unsigned long PROGMEM dkong3_sprites[4][256][16]	16384
+dkong3_tilemap.h	machines\dkong3\dkong3_tilemap.h	const unsigned short dkong3_tilemap[512][8]	4096
+dkong_cmap.h	machines\dkong\dkong_cmap.h	const unsigned short dkong_colormap[0][256][4]	0
+dkong_grid_logo.h	dkong_grid_logo.h	const unsigned short dkong_grid_logo[72*48]	3456
+dkong_logo.h	machines\dkong\dkong_logo.h	const unsigned short dkong_logo[7246]	7246
+dkong_rom1.h	machines\dkong\dkong_rom1.h	const unsigned char dkong_rom_cpu1[16384]	16384
+dkong_rom2.h	machines\dkong\dkong_rom2.h	const unsigned char dkong_rom_cpu2[4096]	4096
+dkong_sample_fall.h	machines\dkong\dkong_sample_fall.h	const unsigned char dkong_sample_fall[20610]	20610
+dkong_sample_jump.h	machines\dkong\dkong_sample_jump.h	const unsigned char dkong_sample_jump[5620]	5620
+dkong_sample_roar.h	machines\dkong\dkong_sample_roar.h	const unsigned char dkong_sample_roar[7970]	7970
+dkong_sample_snapjaw.h	machines\dkong\dkong_sample_snapjaw.h	const unsigned char dkong_sample_snapjaw[11958]	11958
+dkong_sample_stomp.h	machines\dkong\dkong_sample_stomp.h	const unsigned char dkong_sample_stomp[5970]	5970
+dkong_sample_walk0.h	machines\dkong\dkong_sample_walk0.h	const unsigned char dkong_sample_walk0[2204]	2204
+dkong_sample_walk1.h	machines\dkong\dkong_sample_walk1.h	const unsigned char dkong_sample_walk1[1706]	1706
+dkong_sample_walk2.h	machines\dkong\dkong_sample_walk2.h	const unsigned char dkong_sample_walk2[1495]	1495
+dkong_spritemap.h	machines\dkong\dkong_spritemap.h	const unsigned long dkong_sprites[0][128][16]	0
+dkong_tilemap.h	machines\dkong\dkong_tilemap.h	const unsigned short dkong_tilemap[0][8]	0
+dkongjr_cmap.h	machines\dkongjr\dkongjr_cmap.h	const unsigned short dkongjr_colormap[0][256][4]	0
+dkongjr_grid_logo.h	dkongjr_grid_logo.h	const unsigned short dkongjr_grid_logo[72*48]	3456
+dkongjr_logo.h	machines\dkongjr\dkongjr_logo.h	const unsigned short dkongjr_logo[7066]	7066
+dkongjr_oled_logo.h	machines\dkongjr\dkongjr_oled_logo.h	const uint8_t DkongJr_Logo_bits[1024]	1024
+dkongjr_rom1.h	machines\dkongjr\dkongjr_rom1.h	const unsigned char dkongjr_rom1[24576]	24576
+dkongjr_rom2.h	machines\dkongjr\dkongjr_rom2.h	const unsigned char dkongjr_rom2[4096]	4096
+dkongjr_spritemap.h	machines\dkongjr\dkongjr_spritemap.h	const unsigned long dkongjr_sprites[4][128][16]	8192
+dkongjr_tilemap.h	machines\dkongjr\dkongjr_tilemap.h	const unsigned short dkongjr_tilemap[512][8]	4096
+dl2_grid_logo.h	dl2_grid_logo.h	const unsigned short dl2_grid_logo[94*62]	5828
+dl2_rom.h	dl2_rom.h	static const uint8_t dl2_rom[0x10000]	65536
+dl_grid_logo.h	dl_grid_logo.h	const unsigned short dl_grid_logo[94*62]	5828
+dl_scenes.h	dl_scenes.h	static const dl_action_t ACT_attract_mode_attract_movie[0]	0
+dl_sfx.h	dl_sfx.h	static const int16_t SFX_ACCEPT[2342]	12022
+fantasy_gfx.h	machines\fantasy\fantasy_gfx.h	const unsigned char fantasy_gfx[8193]	8193
+fantasy_grid_logo.h	fantasy_grid_logo.h	const unsigned short fantasy_grid_logo[72*48]	3456
+fantasy_logo.h	machines\fantasy\fantasy_logo.h	const unsigned short fantasy_logo[12191]	12191
+fantasy_oled_logo.h	machines\fantasy\fantasy_oled_logo.h	const uint8_t FantasyLogo_bits[1025]	1025
+fantasy_rom.h	machines\fantasy\fantasy_rom.h	const unsigned char fantasy_rom[36865]	36865
+fantasy_snd_rom.h	machines\fantasy\fantasy_snd_rom.h	const unsigned char fantasy_snd_rom[6145]	6145
+fantasy_speech_rom.h	machines\fantasy\fantasy_speech_rom.h	const unsigned char fantasy_speech_rom[6145]	6145
+frogger_grid_logo.h	frogger_grid_logo.h	const unsigned short frogger_grid_logo[72*48]	3456
+frogger_logo.h	machines\frogger\frogger_logo.h	const unsigned short frogger_logo[6563]	6563
+frogger_rom1.h	machines\frogger\frogger_rom1.h	const unsigned char frogger_rom_cpu1[12288]	12288
+frogger_rom2.h	machines\frogger\frogger_rom2.h	const unsigned char frogger_rom_cpu2[6144]	6144
+frogger_spritemap.h	machines\frogger\frogger_spritemap.h	const unsigned long frogger_sprites[0][64][16]	0
+frogger_tilemap.h	machines\frogger\frogger_tilemap.h	const unsigned short frogger_tilemap[0][8]	0
+galaga_cmap_sprites.h	machines\galaga\galaga_cmap_sprites.h	const unsigned short galaga_colormap_sprites[0][4]	0
+galaga_cmap_tiles.h	machines\galaga\galaga_cmap_tiles.h	const unsigned short galaga_colormap_tiles[0][4]	0
+galaga_logo.h	machines\galaga\galaga_logo.h	const unsigned short galaga_logo[224*96]	21504
+galaga_rom1.h	machines\galaga\galaga_rom1.h	const unsigned char galaga_rom_cpu1[16384]	16384
+galaga_rom2.h	machines\galaga\galaga_rom2.h	const unsigned char galaga_rom_cpu2[4096]	4096
+galaga_rom3.h	machines\galaga\galaga_rom3.h	const unsigned char galaga_rom_cpu3[4096]	4096
+galaga_sample_boom.h	machines\galaga\galaga_sample_boom.h	const unsigned char galaga_sample_boom[32747]	32747
+galaga_spritemap.h	machines\galaga\galaga_spritemap.h	const unsigned long galaga_sprites[0][128][16]	0
+galaga_starseed.h	machines\galaga\galaga_starseed.h	const struct galaga_star galaga_star_set[0][63]	0
+galaga_tilemap.h	machines\galaga\galaga_tilemap.h	const unsigned short galaga_tilemap[0][8]	0
+galaga_wavetable.h	machines\galaga\galaga_wavetable.h	const signed char galaga_wavetable[8][32]	8
+galaxian_logo.h	machines\galaxian\galaxian_logo.h	const unsigned short galaxian_logo[224*96]	21504
+galaxian_rom.h	machines\galaxian\galaxian_rom.h	const unsigned char galaxian_rom[16384]	16384
+galaxian_spritemap.h	machines\galaxian\galaxian_spritemap.h	const unsigned long galaxian_spritemap[0][64][16]	0
+galaxian_tilemap.h	machines\galaxian\galaxian_tilemap.h	const unsigned short galaxian_tilemap[0][8]	0
+ghouls_grid_logo.h	ghouls_grid_logo.h	const unsigned short ghouls_grid_logo[72*48]	3456
+gigas2_gfx_spr_p0.h	machines\gigas2\gigas2_gfx_spr_p0.h	const uint8_t gigas2_gfx_spr_p0[16384]	16384
+gigas2_gfx_spr_p1.h	machines\gigas2\gigas2_gfx_spr_p1.h	const uint8_t gigas2_gfx_spr_p1[16384]	16384
+gigas2_gfx_spr_p2.h	machines\gigas2\gigas2_gfx_spr_p2.h	const uint8_t gigas2_gfx_spr_p2[16384]	16384
+gigas2_gfx_tile_p0.h	machines\gigas2\gigas2_gfx_tile_p0.h	const uint8_t gigas2_gfx_tile_p0[16384]	16384
+gigas2_gfx_tile_p1.h	machines\gigas2\gigas2_gfx_tile_p1.h	const uint8_t gigas2_gfx_tile_p1[16384]	16384
+gigas2_gfx_tile_p2.h	machines\gigas2\gigas2_gfx_tile_p2.h	const uint8_t gigas2_gfx_tile_p2[16384]	16384
+gigas2_logo.h	machines\gigas2\gigas2_logo.h	const unsigned short gigas2_logo[224*96]	21504
+gigas2_palette.h	machines\gigas2\gigas2_palette.h	const unsigned short gigas2_palette[512]	512
+gigas2_rom_cpu.h	machines\gigas2\gigas2_rom_cpu.h	const uint8_t gigas2_rom_cpu[98304]	98304
+gigas_gfx_spr_p0.h	machines\gigas\gigas_gfx_spr_p0.h	const uint8_t gigas_gfx_spr_p0[16384]	16384
+gigas_gfx_spr_p1.h	machines\gigas\gigas_gfx_spr_p1.h	const uint8_t gigas_gfx_spr_p1[16384]	16384
+gigas_gfx_spr_p2.h	machines\gigas\gigas_gfx_spr_p2.h	const uint8_t gigas_gfx_spr_p2[16384]	16384
+gigas_gfx_tile_p0.h	machines\gigas\gigas_gfx_tile_p0.h	const uint8_t gigas_gfx_tile_p0[16384]	16384
+gigas_gfx_tile_p1.h	machines\gigas\gigas_gfx_tile_p1.h	const uint8_t gigas_gfx_tile_p1[16384]	16384
+gigas_gfx_tile_p2.h	machines\gigas\gigas_gfx_tile_p2.h	const uint8_t gigas_gfx_tile_p2[16384]	16384
+gigas_logo.h	machines\gigas\gigas_logo.h	const unsigned short gigas_logo[224*96]	21504
+gigas_palette.h	machines\gigas\gigas_palette.h	const unsigned short gigas_palette[512]	512
+gigas_rom_cpu.h	machines\gigas\gigas_rom_cpu.h	const uint8_t gigas_rom_cpu[98304]	98304
+giochi_card_logo.h	giochi_card_logo.h	const unsigned short giochi_card_logo[GIOCHI_CARD_W * GIOCHI_CARD_H]	21504
+giochi_header.h	giochi_header.h	const unsigned short giochi_header[GIOCHI_HEADER_W * GIOCHI_HEADER_H]	22272
+gng_bank_rom.h	machines\gng\gng_bank_rom.h	const unsigned char gng_bank_rom[40960]	40960
+gng_charmap.h	machines\gng\gng_charmap.h	const unsigned char gng_charmap[65536]	65536
+gng_cmap.h	machines\gng\gng_cmap.h	const unsigned char gng_char_cmap[64]	432
+gng_grid_logo.h	gng_grid_logo.h	const unsigned short gng_grid_logo[72*48]	3456
+gng_logo.h	machines\gng\gng_logo.h	const unsigned short gng_logo[9549]	9549
+gng_rom.h	machines\gng\gng_rom.h	const unsigned char gng_rom[40960]	40960
+gng_snd_rom.h	machines\gng\gng_snd_rom.h	const unsigned char gng_snd_rom[32768]	32768
+gng_spritemap.h	machines\gng\gng_spritemap.h	const unsigned char gng_spritemap[262144]	262144
+gng_tilemap.h	machines\gng\gng_tilemap.h	const unsigned char gng_tilemap[262144]	262144
+goindol_gfx_bg_p0.h	machines\goindol\goindol_gfx_bg_p0.h	const uint8_t goindol_gfx_bg_p0[32768]	32768
+goindol_gfx_bg_p1.h	machines\goindol\goindol_gfx_bg_p1.h	const uint8_t goindol_gfx_bg_p1[32768]	32768
+goindol_gfx_bg_p2.h	machines\goindol\goindol_gfx_bg_p2.h	const uint8_t goindol_gfx_bg_p2[32768]	32768
+goindol_gfx_fg_p0.h	machines\goindol\goindol_gfx_fg_p0.h	const uint8_t goindol_gfx_fg_p0[32768]	32768
+goindol_gfx_fg_p1.h	machines\goindol\goindol_gfx_fg_p1.h	const uint8_t goindol_gfx_fg_p1[32768]	32768
+goindol_gfx_fg_p2.h	machines\goindol\goindol_gfx_fg_p2.h	const uint8_t goindol_gfx_fg_p2[32768]	32768
+goindol_logo.h	machines\goindol\goindol_logo.h	const unsigned short goindol_logo[224*96]	21504
+goindol_palette.h	machines\goindol\goindol_palette.h	const unsigned short goindol_palette[256]	256
+goindol_rom_audio.h	machines\goindol\goindol_rom_audio.h	const uint8_t goindol_rom_audio[32768]	32768
+goindol_rom_bank.h	machines\goindol\goindol_rom_bank.h	const uint8_t goindol_rom_bank[65536]	65536
+goindol_rom_fixed.h	machines\goindol\goindol_rom_fixed.h	const uint8_t goindol_rom_fixed[32768]	32768
+greenberet_cmap.h	machines\greenberet\greenberet_cmap.h	const unsigned short greenberet_tile_colormap[0][16]	0
+greenberet_grid_logo.h	greenberet_grid_logo.h	const unsigned short greenberet_grid_logo[72*48]	3456
+greenberet_logo.h	machines\greenberet\greenberet_logo.h	const unsigned short greenberet_logo[10666]	10666
+greenberet_rom.h	machines\greenberet\greenberet_rom.h	const unsigned char greenberet_rom[49153]	49153
+greenberet_spritemap.h	machines\greenberet\greenberet_spritemap.h	const unsigned long greenberet_sprites[4][512][32]	65536
+greenberet_tilemap.h	machines\greenberet\greenberet_tilemap.h	const unsigned long greenberet_tilemap[512][8]	4096
+gyruss_grid_logo.h	gyruss_grid_logo.h	const unsigned short gyruss_grid_logo[72*48]	3456
+gyruss_logo.h	machines\gyruss\gyruss_logo.h	const uint8_t Gyruss_Logo_bits[1025]	1025
+gyruss_logo_tft.h	machines\gyruss\gyruss_logo_tft.h	const unsigned short gyruss_logo[6003]	6003
+gyruss_palette.h	machines\gyruss\gyruss_palette.h	const unsigned short gyruss_palette[32]	32
+gyruss_rom_audio.h	machines\gyruss\gyruss_rom_audio.h	const unsigned char gyruss_rom_audio[16384]	16384
+gyruss_rom_i8039.h	machines\gyruss\gyruss_rom_i8039.h	const unsigned char gyruss_rom_i8039[4096]	4096
+gyruss_rom_main.h	machines\gyruss\gyruss_rom_main.h	const unsigned char gyruss_rom_main[24576]	24576
+gyruss_rom_sub.h	machines\gyruss\gyruss_rom_sub.h	const unsigned char gyruss_rom_sub_raw[8192]	8192
+gyruss_spritemap.h	machines\gyruss\gyruss_spritemap.h	const unsigned long gyruss_sprites[0][512][16]	0
+gyruss_tilemap.h	machines\gyruss\gyruss_tilemap.h	const unsigned short gyruss_tilemap[0][8]	0
+ladybug_grid_logo.h	ladybug_grid_logo.h	const unsigned short ladybug_grid_logo[72*48]	3456
+ladybug_logo.h	machines\ladybug\ladybug_logo.h	const unsigned short ladybug_logo[6709]	6709
+ladybug_rom.h	machines\ladybug\ladybug_rom.h	const unsigned char ladybug_rom_cpu1[24576]	24576
+ladybug_spritemap.h	machines\ladybug\ladybug_spritemap.h	const unsigned long ladybug_sprites[4][128][16]	8192
+ladybug_tilemap.h	machines\ladybug\ladybug_tilemap.h	const unsigned short ladybug_tilemap[512][8]	4096
+lair_framefile.h	lair_framefile.h	static const dl_frame_entry_t DL_FRAMEFILE[0]	0
+laserdisc_card_logo.h	laserdisc_card_logo.h	const unsigned short laserdisc_card_logo[LASERDISC_CARD_W * LASERDISC_CARD_H]	21504
+logo.h	logo.h	const uint8_t Galaga_Logo_bits[1025]	1025
+mariobros_cmap.h	machines\mariobros\mariobros_cmap.h	const unsigned short mariobros_colormap[2][8][4]	324
+mariobros_grid_logo.h	mariobros_grid_logo.h	const unsigned short mariobros_grid_logo[72*48]	3456
+mariobros_logo.h	machines\mariobros\mariobros_logo.h	const unsigned short mariobros_logo[7172]	7172
+mariobros_rom1.h	machines\mariobros\mariobros_rom1.h	const unsigned char mariobros_rom_cpu1[24577]	24577
+mariobros_rom1_high.h	machines\mariobros\mariobros_rom1_high.h	const unsigned char mariobros_rom_cpu1_high[4097]	4097
+mariobros_rom2.h	machines\mariobros\mariobros_rom2.h	const unsigned char mariobros_rom_cpu2[4097]	4097
+mariobros_spritemap.h	machines\mariobros\mariobros_spritemap.h	const unsigned long mariobros_sprites[0][256][32]	0
+mariobros_tilemap.h	machines\mariobros\mariobros_tilemap.h	const unsigned short mariobros_tilemap[0][8]	0
+mooncresta_grid_logo.h	mooncresta_grid_logo.h	const unsigned short mooncresta_grid_logo[72*48]	3456
+mooncresta_logo.h	machines\mooncresta\mooncresta_logo.h	const unsigned short mooncresta_logo[8194]	8194
+mooncresta_rom.h	machines\mooncresta\mooncresta_rom.h	const unsigned char mooncresta_rom[16384]	16384
+mooncresta_spritemap.h	machines\mooncresta\mooncresta_spritemap.h	const unsigned long mooncresta_spritemap[0][128][16]	0
+mooncresta_tilemap.h	machines\mooncresta\mooncresta_tilemap.h	const unsigned short mooncresta_tilemap[0][8]	0
+moonpatrol_bgmap.h	machines\moonpatrol\moonpatrol_bgmap.h	const unsigned char moonpatrol_bg0[4097]	4097
+moonpatrol_cmap.h	machines\moonpatrol\moonpatrol_cmap.h	const unsigned short moonpatrol_tile_cmap[0][4]	0
+moonpatrol_grid_logo.h	moonpatrol_grid_logo.h	const unsigned short moonpatrol_grid_logo[72*48]	3456
+moonpatrol_logo.h	machines\moonpatrol\moonpatrol_logo.h	const unsigned short moonpatrol_logo[7467]	7467
+moonpatrol_rom.h	machines\moonpatrol\moonpatrol_rom.h	const unsigned char moonpatrol_rom[16385]	16385
+moonpatrol_snd_rom.h	machines\moonpatrol\moonpatrol_snd_rom.h	const unsigned char moonpatrol_snd_rom[16385]	16385
+moonpatrol_spritemap.h	machines\moonpatrol\moonpatrol_spritemap.h	const unsigned long moonpatrol_spritemap[4][128][32]	16384
+moonpatrol_tilemap.h	machines\moonpatrol\moonpatrol_tilemap.h	const unsigned short moonpatrol_tilemap[512][8]	4096
+motorace_cmap.h	machines\motorace\motorace_cmap.h	const unsigned short motorace_char_cmap[16][8]	260
+motorace_logo.h	machines\motorace\motorace_logo.h	const unsigned short motorace_logo[224*96]	21504
+motorace_rom.h	machines\motorace\motorace_rom.h	const unsigned char motorace_rom[32769]	32769
+motorace_snd_rom.h	machines\motorace\motorace_snd_rom.h	const unsigned char motorace_snd_rom[16384]	16384
+motorace_spritemap.h	machines\motorace\motorace_spritemap.h	const unsigned long motorace_spritemap[4][256][32]	32768
+motorace_tilemap.h	machines\motorace\motorace_tilemap.h	const unsigned long motorace_tilemap[1024][8]	8192
+mspacman_auxrom.h	machines\mspacman\mspacman_auxrom.h	const unsigned char mspacman_auxrom[8193]	8193
+mspacman_grid_logo.h	mspacman_grid_logo.h	const unsigned short mspacman_grid_logo[72*48]	3456
+mspacman_logo.h	machines\mspacman\mspacman_logo.h	const unsigned short mspacman_logo[7214]	7214
+mspacman_pacrom.h	machines\mspacman\mspacman_pacrom.h	const unsigned char mspacman_pacrom[16385]	16385
+mspacman_spritemap.h	machines\mspacman\mspacman_spritemap.h	const unsigned long mspacman_sprites[0][64][16]	0
+mspacman_tilemap.h	machines\mspacman\mspacman_tilemap.h	const unsigned short mspacman_tilemap[0][8]	0
+neogeo_card_logo.h	neogeo_card_logo.h	const unsigned short neogeo_card_logo[NEOGEO_CARD_W * NEOGEO_CARD_H]	21504
+nibbler_crunch.h	machines\nibbler\nibbler_crunch.h	const signed char nibbler_crunch[8400]	8400
+nibbler_gfx.h	machines\nibbler\nibbler_gfx.h	const unsigned char nibbler_gfx[8193]	8193
+nibbler_grid_logo.h	nibbler_grid_logo.h	const unsigned short nibbler_grid_logo[72*48]	3456
+nibbler_logo.h	machines\nibbler\nibbler_logo.h	const unsigned short nibbler_logo[11714]	11714
+nibbler_oled_logo.h	machines\nibbler\nibbler_oled_logo.h	const uint8_t NibblerLogo_bits[1025]	1025
+nibbler_rom.h	machines\nibbler\nibbler_rom.h	const unsigned char nibbler_rom[36865]	36865
+nibbler_snd_rom.h	machines\nibbler\nibbler_snd_rom.h	const unsigned char nibbler_snd_rom[6145]	6145
+outrun_grid_logo.h	outrun_grid_logo.h	const unsigned short outrun_grid_logo[72*48]	3456
+pacman_grid_logo.h	pacman_grid_logo.h	const unsigned short pacman_grid_logo[72*48]	3456
+pacman_logo.h	machines\pacman\pacman_logo.h	const unsigned short pacman_logo[3391]	3391
+pacman_rom.h	machines\pacman\pacman_rom.h	const unsigned char pacman_rom[16384]	16384
+pacman_spritemap.h	machines\pacman\pacman_spritemap.h	const unsigned long pacman_sprites[0][64][16]	0
+pacman_tilemap.h	machines\pacman\pacman_tilemap.h	const unsigned short pacman_tilemap[0][8]	0
+pacman_wavetable.h	machines\pacman\pacman_wavetable.h	const signed char pacman_wavetable[8][32]	8
+pang_logo.h	machines\pang\pang_logo.h	const unsigned short pang_logo[224*96]	21504
+pang_rom_assets.h	machines\pang\pang_rom_assets.h	const unsigned char pang_op_fixed[32769]	32769
+pbaction_grid_logo.h	pbaction_grid_logo.h	const unsigned short pbaction_grid_logo[72*48]	3456
+pbaction_logo.h	machines\pbaction\pbaction_logo.h	const unsigned short pbaction_logo[5405]	5405
+pbaction_rom_audio.h	machines\pbaction\pbaction_rom_audio.h	const unsigned char pbaction_rom_audio[8192]	8192
+pbaction_rom_bg.h	machines\pbaction\pbaction_rom_bg.h	const unsigned char pbaction_rom_bg[65536]	65536
+pbaction_rom_fg.h	machines\pbaction\pbaction_rom_fg.h	const unsigned char pbaction_rom_fg[24576]	24576
+pbaction_rom_main.h	machines\pbaction\pbaction_rom_main.h	const unsigned char pbaction_rom_main[40960]	40960
+pbaction_rom_sprites.h	machines\pbaction\pbaction_rom_sprites.h	const unsigned char pbaction_rom_sprites[24576]	24576
+phoenix_bgtiles.h	machines\phoenix\phoenix_bgtiles.h	const unsigned char phoenix_bgtiles[4096]	4096
+phoenix_fgtiles.h	machines\phoenix\phoenix_fgtiles.h	const unsigned char phoenix_fgtiles[4096]	4096
+phoenix_logo.h	machines\phoenix\phoenix_logo.h	const unsigned short phoenix_logo[224*96]	21504
+phoenix_palette.h	machines\phoenix\phoenix_palette.h	const unsigned short phoenix_palette[256]	256
+phoenix_rom.h	machines\phoenix\phoenix_rom.h	const unsigned char phoenix_rom[16384]	16384
+popeye_face_overlay.h	machines\popeye\popeye_face_overlay.h	const unsigned short popeye_face_overlay[7341]	7341
+popeye_grid_logo.h	popeye_grid_logo.h	const unsigned short popeye_grid_logo[72*48]	3456
+popeye_king_features_overlay.h	machines\popeye\popeye_king_features_overlay.h	const unsigned short popeye_king_features_overlay[2363]	2363
+popeye_logo.h	machines\popeye\popeye_logo.h	const unsigned short popeye_logo[6583]	6583
+popeye_logo_full.h	machines\popeye\popeye_logo_FULL.h	const unsigned short popeye_logo[7798]	7798
+popeye_logo_overlay.h	machines\popeye\popeye_logo_overlay.h	const unsigned short popeye_logo_overlay[4740]	4740
+popeye_nintendo_overlay.h	machines\popeye\popeye_nintendo_overlay.h	const unsigned short popeye_nintendo_overlay[1129]	1129
+popeye_prom_5a.h	machines\popeye\popeye_prom_5a.h	const unsigned char popeye_prom_5a[256]	256
+popeye_prom_5b.h	machines\popeye\popeye_prom_5b.h	const unsigned char popeye_prom_5b[256]	256
+popeye_prom_7j.h	machines\popeye\popeye_prom_7j.h	const unsigned char popeye_prom_7j[256]	256
+popeye_rom_main.h	machines\popeye\popeye_rom_main.h	const unsigned char popeye_rom_main[32768]	32768
+popeye_rom_video.h	machines\popeye\popeye_rom_video.h	const unsigned char popeye_rom_video[36864]	36864
+quester_logo.h	machines\quester\quester_logo.h	const unsigned short quester_logo[224*96]	21504
+roadfighter_logo.h	machines\roadfighter\roadfighter_logo.h	const unsigned short roadfighter_logo[224*96]	21504
+roadfighter_palette.h	machines\roadfighter\roadfighter_palette.h	const unsigned short roadfighter_palette[32]	1070
+roadfighter_rom_audio.h	machines\roadfighter\roadfighter_rom_audio.h	const uint8_t roadfighter_rom_audio[8192]	8192
+roadfighter_rom_main.h	machines\roadfighter\roadfighter_rom_main.h	const uint8_t roadfighter_rom_main_raw[49152]	98306
+roadfighter_sprites.h	machines\roadfighter\roadfighter_sprites.h	const uint32_t roadfighter_sprites[256][32]	8192
+roadfighter_tiles.h	machines\roadfighter\roadfighter_tiles.h	const uint32_t roadfighter_tiles[1536][8]	12288
+sbrkout_gfx_char.h	machines\sbrkout\sbrkout_gfx_char.h	const uint8_t sbrkout_gfx_char[1024]	1024
+sbrkout_logo.h	machines\sbrkout\sbrkout_logo.h	const unsigned short sbrkout_logo[224*96]	21504
+sbrkout_rom_cpu.h	machines\sbrkout\sbrkout_rom_cpu.h	const uint8_t sbrkout_rom_cpu[16384]	16384
+scramble_grid_logo.h	scramble_grid_logo.h	const unsigned short scramble_grid_logo[72*48]	3456
+scramble_logo.h	machines\scramble\scramble_logo.h	const unsigned short Scramble_logo[11304]	11304
+scramble_rom_audio.h	machines\scramble\scramble_rom_audio.h	const unsigned char scramble_rom_audio[6144]	6144
+scramble_rom_main.h	machines\scramble\scramble_rom_main.h	const unsigned char scramble_rom_main[16384]	16384
+scramble_spritemap.h	machines\scramble\scramble_spritemap.h	const unsigned long scramble_spritemap[4][64][16]	4100
+scramble_tilemap.h	machines\scramble\scramble_tilemap.h	const unsigned short scramble_tilemap[0][8]	0
+spaceinvaders_logo.h	machines\spaceinvaders\spaceinvaders_logo.h	const unsigned short spaceinvaders_logo[224*96]	21504
+spaceinvaders_rom.h	machines\spaceinvaders\spaceinvaders_rom.h	const unsigned char spaceinvaders_rom[8192]	8192
+spaceinvaders_samples.h	machines\spaceinvaders\spaceinvaders_samples.h	const signed char si_sample_shot[2399]	2399
+splash_audio.h	splash_audio.h	const int16_t splash_audio[122079]	122079
+splash_logo.h	splash_logo.h	const unsigned short splash_logo[74240]	74240
+supercobra_audio_rom.h	machines\supercobra\supercobra_audio_rom.h	const unsigned char supercobra_audio_rom[8192]	8192
+supercobra_grid_logo.h	supercobra_grid_logo.h	const unsigned short supercobra_grid_logo[72*48]	3456
+supercobra_logo.h	machines\supercobra\supercobra_logo.h	const unsigned short supercobra_logo[10852]	10852
+supercobra_main_rom.h	machines\supercobra\supercobra_main_rom.h	const unsigned char supercobra_main_rom[24576]	24576
+supercobra_spritemap.h	machines\supercobra\supercobra_spritemap.h	const unsigned long supercobra_spritemap[4][64][16]	4100
+supercobra_tilemap.h	machines\supercobra\supercobra_tilemap.h	const unsigned short supercobra_tilemap[0][8]	0
+supxevs_chr.h	machines\supxevs\supxevs_chr.h	const unsigned char supxevs_chr[32768]	32768
+supxevs_grid_logo.h	supxevs_grid_logo.h	const unsigned short supxevs_grid_logo[3456]	3456
+supxevs_prg.h	machines\supxevs\supxevs_prg.h	const unsigned char supxevs_prg[131072]	131072
+tempest_logo.h	machines\tempest\tempest_logo.h	const unsigned short tempest_logo[224*96]	21504
+tempest_rom_cpu.h	machines\tempest\tempest_rom_cpu.h	const unsigned char tempest_rom_cpu[24577]	24577
+tempest_vector_rom.h	machines\tempest\tempest_vector_rom.h	const unsigned char tempest_vector_rom[4097]	4097
+tileaddr.h	machines\tileaddr.h	const unsigned short tileaddr[0][28]	0
+timeplt_grid_logo.h	timeplt_grid_logo.h	const unsigned short timeplt_grid_logo[72*48]	3456
+timeplt_logo.h	machines\timeplt\timeplt_logo.h	const unsigned short timeplt_logo[11498]	11498
+timeplt_rom.h	machines\timeplt\timeplt_rom.h	const unsigned char timeplt_rom[24576]	24576
+timeplt_snd_rom.h	machines\timeplt\timeplt_snd_rom.h	const unsigned char timeplt_snd_rom[4096]	4096
+timeplt_spritemap.h	machines\timeplt\timeplt_spritemap.h	const unsigned long timeplt_spritemap[0][256][16]	0
+timeplt_tilemap.h	machines\timeplt\timeplt_tilemap.h	const unsigned short timeplt_tilemap[0][8]	0
+xevious_bg_rom2c.h	machines\xevious\xevious_bg_rom2c.h	const unsigned char xevious_bg_rom2c[4096]	4096
+xevious_bgdata.h	machines\xevious\xevious_bgdata.h	const unsigned char xevious_bgdata_2a[4097]	4097
+xevious_bgmap.h	machines\xevious\xevious_bgmap.h	const unsigned char xevious_bgmap[16384]	16384
+xevious_bgtiles.h	machines\xevious\xevious_bgtiles.h	const unsigned short xevious_bgtiles[512][8]	4096
+xevious_boom.h	machines\xevious\xevious_boom.h	static const int8_t XEV_BOOM_NAVETTA[16001]	16001
+xevious_cmap.h	machines\xevious\xevious_cmap.h	const unsigned short xevious_palette[129]	1427
+xevious_cmap_bg.h	machines\xevious\xevious_cmap_bg.h	const unsigned short xevious_colormap_bg[0][4]	0
+xevious_cmap_sprites.h	machines\xevious\xevious_cmap_sprites.h	const unsigned short xevious_colormap_sprites[0][8]	0
+xevious_grid_logo.h	xevious_grid_logo.h	const unsigned short xevious_grid_logo[72*48]	3456
+xevious_logo.h	machines\xevious\xevious_logo.h	const unsigned short xevious_logo[7531]	7531
+xevious_oled_logo.h	machines\xevious\xevious_oled_logo.h	const unsigned char Xevious_Logo_bits[1025]	1025
+xevious_rom_cpu1.h	machines\xevious\xevious_rom_cpu1.h	const unsigned char xevious_rom_cpu1[16384]	16384
+xevious_rom_cpu2.h	machines\xevious\xevious_rom_cpu2.h	const unsigned char xevious_rom_cpu2[8193]	8193
+xevious_rom_cpu3.h	machines\xevious\xevious_rom_cpu3.h	const unsigned char xevious_rom_cpu3[4097]	4097
+xevious_scrolltable.h	machines\xevious\xevious_scrolltable.h	const unsigned char xevious_scroll_x[512]	1025
+xevious_spritemap.h	machines\xevious\xevious_spritemap.h	const unsigned long long xevious_sprites[4][324][16]	20736
+xevious_sr3.h	machines\xevious\xevious_sr3.h	const unsigned char xevious_sr3[256]	256
+xevious_tilemap.h	machines\xevious\xevious_tilemap.h	const unsigned short xevious_tilemap[512][8]	4096
+xevious_tilemap_bg.h	machines\xevious\xevious_tilemap_bg.h	const unsigned short xevious_bg_tilemap[0][8]	0
+xevious_tilemap_fg.h	machines\xevious\xevious_tilemap_fg.h	const unsigned char xevious_fg_chars[4097]	4097
+xevious_wavetable.h	machines\xevious\xevious_wavetable.h	const signed char xevious_wavetable[0][32]	0
+ym2413.h	machines\pang\ym2413.h	static const uint8_t amraw[210]	752
