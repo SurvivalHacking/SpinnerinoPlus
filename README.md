@@ -49,10 +49,12 @@ Un progetto di Marco Prunca basato su ESP32-P4.
         dl_ntsc.zip   ->  Dragon's Lair
         Space Ace.zip ->  Space Ace 
         Dragon's Lair 2.zip  ->  Dragon's Lair 2
+      
+  3. Scaricare il pacchetto di FFMPEG dal sito ufficiale e inserire nella cartella /FFMPEG i file ffmpeg.exe e ffprobe.exe
 
-  3. Lancia:      prepara.bat  (Solo per windows)   
+  4. Lancia:      prepara.bat  (Solo per windows)   
                   
-  4. Copia il contenuto di  DA COPIARE SU SD\  nella RADICE di una microSD
+  5. Copia il contenuto di  DA COPIARE SU SD\  nella RADICE di una microSD
      (formattata FAT32).
      
   6. Apri  P4_C6_Programmer\P4_C6_Programmer.ino  con l'Arduino IDE
