@@ -89,18 +89,6 @@ Un progetto di Marco Prunca basato su ESP32-P4.
 * Interruttore a bilanciere 10x15: https://amzn.to/4yXhAsz
 
 ---
-# 🎛️ Programmazione ESP32P4
-
-Arduino IDE settings (esp32 core >= 3.3.8):
-*   Board:                 ESP32P4 Dev Module
-*   Flash Size:            32MB
-*   PSRAM:                 Enabled
-*   Partition Scheme:      SPINNERINO (da creare con apposito batch file)
-*   USB Mode:              Hardware CDC and JTAG
-*   USB CDC On Boot:       Disabled
-*   Upload Speed:          921600
-
----
 # 📝 Revisioni
 
  * V1.0 - 09/26 - First Release
