@@ -46,48 +46,30 @@ Un progetto di Marco Prunca basato su ESP32-P4.
 COSA DEVI FARE
 --------------
   1. Metti le tue ROM MAME in formato ZIP dentro     ROMS\
-     (una zip per gioco, col nome che ha in MAME: galaga.zip, dkong.zip...)
-     UN CASO A PARTE: Xevious vuole DUE zip, xevious.zip E xevios.zip (il
-     bootleg). Lo sfondo del gioco nasce da due file che stanno solo nel
-     bootleg. Con la sola xevious.zip il gioco parte, ma lo sfondo e' diverso.
+     L'elenco completo dei file lo trovi nel file leggimi.txt nella cartello \ROMS
 
   2. Metti i tuoi pacchetti Daphne dentro   VIDEO\
-     (solo se vuoi i laserdisc). Servono questi tre nomi, come li scarichi:
+     Servono questi file con questi nomi:
         dl_ntsc.zip   ->  Dragon's Lair
-        Space Ace.zip ->  Space Ace
-        Dragon's Lair 2.zip
-     ATTENZIONE: la conversione dei video e' LUNGA, qualche ORA, e le servono
-     circa 10 GB liberi per il passaggio intermedio (che poi puoi cancellare:
-     e' VIDEO\_800x600\). Si puo' interrompere e riprendere: al giro dopo
-     salta i clip gia' fatti.
-     Se non vuoi i laserdisc, lascia VIDEO\ vuota e salta il punto.
+        Space Ace.zip ->  Space Ace 
+        Dragon's Lair 2.zip  ->  Dragon's Lair 2
 
-  3. Lancia:      prepara.bat     
+  3. Lancia:      prepara.bat  (Solo per windows)   
                   
-  4. Copia il contenuto di  DA COPIARE SU SD\  nella RADICE della microSD
-     (formattata FAT32). Serve a SETTE giochi che NON hanno la ROM dentro il
-     programma e la leggono dalla scheda:
-        1944 - Ghouls'n Ghosts - Out Run - Neo Geo (Metal Slug)
-        Dragon's Lair - Space Ace - Dragon's Lair 2
-     Prima di prepara.bat quella cartella e' vuota: la riempie lui.
-
-  5. Apri  P4_C6_Programmer\P4_C6_Programmer.ino  con l'Arduino IDE, scegli
-     La scheda ESP32-P4 e compila e programma. Partirà una procedura automatica
-     Per la programmazione dell'ESP32C6
-  
-  6. Lancia il comando crea_Partizione_SPINNERINO_30MB.bat per creare la petizione
-     Custom da usare con l'IDE.
-  
-  7. Apri  SPINNERINO\SPINNERINO.ino  con l'Arduino IDE, scegli la scheda
+  4. Copia il contenuto di  DA COPIARE SU SD\  nella RADICE di una microSD
+     (formattata FAT32).
+     
+  6. Apri  P4_C6_Programmer\P4_C6_Programmer.ino  con l'Arduino IDE
+     scegli la scheda
      ESP32-P4 e compila. (Seguire le indicazioni del programma per le impostazioni
      dell'IDE)
-
-     ATTENZIONE: il punto 3 NON e' facoltativo. In questo pacchetto i 321
-     header che nascono dalle ROM non ci sono affatto - li scrive prepara.
-     Finche' non l'hai lanciato almeno una volta il progetto NON COMPILA:
-     l'IDE dira' che non trova dei file .h. Non e' un pacchetto rotto, e'
-     che quei file li devi generare tu dalle tue zip.
-
+     
+  8. Lancia il comando crea_Partizione_SPINNERINO_30MB.bat per creare la petizione
+     Custom da usare con l'IDE.
+  
+  9. Apri  SPINNERINO\SPINNERINO.ino  con l'Arduino IDE, scegli la scheda
+     ESP32-P4 e compila. (Seguire le indicazioni del programma per le impostazioni
+     dell'IDE)
 
 ---
 ## 🎛️ Schema pratico di assemblaggio
