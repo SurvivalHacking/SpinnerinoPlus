@@ -60,7 +60,7 @@ Un progetto di Marco Prunca basato su ESP32-P4.
   6. Apri  P4_C6_Programmer\P4_C6_Programmer.ino  con l'Arduino IDE
      scegli la scheda
      ESP32-P4 e compila. (Seguire le indicazioni del programma per le impostazioni
-     dell'IDE)
+     dell'IDE) Oppure usa la programmazione via WEB: https://davidegatti.altervista.org/installaEsp32.php?progetto=spinnerinoPlus
      
   8. Lancia il comando crea_Partizione_SPINNERINO_30MB.bat per creare la petizione
      Custom da usare con l'IDE.
