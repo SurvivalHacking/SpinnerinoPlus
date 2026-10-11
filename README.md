@@ -39,7 +39,7 @@ Un progetto di Marco Prunca basato su ESP32-P4.
  
  
 ---
-## CONVERSIONE ROM
+## 📂 CONVERSIONE ROM
 
   1. Metti le tue ROM MAME in formato ZIP dentro     ROMS\
      L'elenco completo dei file lo trovi nel file leggimi.txt nella cartello \ROMS
