@@ -26,7 +26,7 @@ frogger          4/ 4  romconv_frogger.py
                  da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_frogger.py
 galaga           4/ 4  romconv_galaga.py
                  da: PROGETTI SH\CABINATONE\ROM CONVERTER PY\romconv_galaga.py
-galaxian         1/ 1  galaxian__romconv_galaxian.py
+galaxian         1/ 1  romconv_galaxian.py
                  da: PROGETTI SH\SPINNERINO\SPINNERINO NEW P4p\SPINNERINO\FILE ROMCONV PY\romconv_galaxian.py
 gng              7/ 7  romconv_gng.py
                  da: PROGETTI SH\GALAGINO PROGETTO ORIGINALE\ULTIMO DI DAVIDE\ULTIMO ULTIMO\PROGETTO ULTIMO\Files_FULL33\source\src\romconv_gng.py
