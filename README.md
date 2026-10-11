@@ -7,10 +7,14 @@ Mini arcade dedicato ai titoli con controllo a manopola con grandi classici come
 In questa nuova variante ora si può giocare a tutti i giochi anche con joystick.
 Un progetto di Marco Prunca basato su ESP32-P4. 
 
-NOTA: E' stato aggiornato il convertitore che ora funziona anche su MAC e Linux oltre che windows e ha una GUI per rendere più comprensibile tutto il processo. grazie a Alessandro Porcheddu
 
 <img width="1365" height="768" alt="IMDd_WONGaLjo copia" src="https://github.com/user-attachments/assets/ba6a95f5-6b7e-46bb-9fc2-a197fe884598" />
+
 <img width="1365" height="768" alt="IMMfozfteeKR8" src="https://github.com/user-attachments/assets/22dfa851-767b-458c-8899-96cc7aa844d3" />
+
+
+NOTA: E' stato aggiornato il convertitore che ora funziona anche su MAC e Linux oltre che windows e ha una GUI per rendere più comprensibile tutto il processo. grazie a Alessandro Porcheddu
+<img width="1019" height="777" alt="IMAGE 2026-10-11 22:38:37" src="https://github.com/user-attachments/assets/2b06737d-611c-4598-9fe0-18fb22e36287" />
 
 
 🎥 Video tutorial: https://youtu.be/VE9SN8RUckk
