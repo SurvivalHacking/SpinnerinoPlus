@@ -1,0 +1,174 @@
+============================================================
+SPINNERINO PLUS - come rimettere insieme il progetto
+============================================================
+
+Questo pacchetto contiene TUTTO il codice, ma NON contiene le ROM dei giochi
+ne' i video dei laserdisc: quelli te li procuri tu, e li rigeneri con i
+convertitori che trovi in CONVERTITORI\.
+
+
+COSA TI SERVE
+-------------
+  - SOLO l'Arduino IDE 2.x col supporto ESP32 (vedi sotto).
+    Python e le sue due librerie NON devi installarli: se mancano ci pensa
+    prepara al primo lancio. Serve solo la connessione a internet.
+       WINDOWS: prepara.bat installa Python dal sito ufficiale python.org
+                per il solo utente - niente password di amministratore.
+    Poi, dappertutto, pillow e numpy se le installa prepara.py.
+    Se non ci riesce te lo scrive, e allora lo fai a mano:
+       Python  https://www.python.org/downloads/  (su Windows spunta
+       "Add python.exe to PATH"), poi     pip install pillow numpy
+  - ffmpeg, e serve SOLO ai tre laserdisc:
+       WINDOWS: non devi installarlo, e' gia' qui dentro, in FFMPEG\
+  - Arduino IDE 2.x col supporto ESP32 (Boards Manager -> "esp32" di
+    Espressif). Questa e' l'unica cosa che devi installare tu.
+    Assicurarsi di installare la versione 3.3.8
+
+
+COSA DEVI FARE
+--------------
+  1. Metti le tue ROM MAME in formato ZIP dentro     ROMS\
+     (una zip per gioco, col nome che ha in MAME: galaga.zip, dkong.zip...)
+     UN CASO A PARTE: Xevious vuole DUE zip, xevious.zip E xevios.zip (il
+     bootleg). Lo sfondo del gioco nasce da due file che stanno solo nel
+     bootleg. Con la sola xevious.zip il gioco parte, ma lo sfondo e' diverso.
+
+  2. Metti i tuoi pacchetti Daphne dentro   VIDEO\
+     (solo se vuoi i laserdisc). Servono questi tre nomi, come li scarichi:
+        dl_ntsc.zip   ->  Dragon's Lair
+        Space Ace.zip ->  Space Ace
+        Dragon's Lair 2.zip
+     ATTENZIONE: la conversione dei video e' LUNGA, qualche ORA, e le servono
+     circa 10 GB liberi per il passaggio intermedio (che poi puoi cancellare:
+     e' VIDEO\_800x600\). Si puo' interrompere e riprendere: al giro dopo
+     salta i clip gia' fatti.
+     Se non vuoi i laserdisc, lascia VIDEO\ vuota e salta il punto.
+
+  3. Lancia:      prepara.bat     
+                  
+  4. Copia il contenuto di  DA COPIARE SU SD\  nella RADICE della microSD
+     (formattata FAT32). Serve a SETTE giochi che NON hanno la ROM dentro il
+     programma e la leggono dalla scheda:
+        1944 - Ghouls'n Ghosts - Out Run - Neo Geo (Metal Slug)
+        Dragon's Lair - Space Ace - Dragon's Lair 2
+     Prima di prepara.bat quella cartella e' vuota: la riempie lui.
+
+  5. Apri  P4_C6_Programmer\P4_C6_Programmer.ino  con l'Arduino IDE, scegli
+     La scheda ESP32-P4 e compila e programma. Partirà una procedura automatica
+     Per la programmazione dell'ESP32C6
+  
+  6. Lancia il comando crea_Partizione_SPINNERINO_30MB.bat per creare la petizione
+     Custom da usare con l'IDE.
+  
+  7. Apri  SPINNERINO\SPINNERINO.ino  con l'Arduino IDE, scegli la scheda
+     ESP32-P4 e compila. (Seguire le indicazioni del programma per le impostazioni
+     dell'IDE)
+
+     ATTENZIONE: il punto 3 NON e' facoltativo. In questo pacchetto i 321
+     header che nascono dalle ROM non ci sono affatto - li scrive prepara.
+     Finche' non l'hai lanciato almeno una volta il progetto NON COMPILA:
+     l'IDE dira' che non trova dei file .h. Non e' un pacchetto rotto, e'
+     che quei file li devi generare tu dalle tue zip.
+
+
+COSA FA prepara
+---------------
+Fa girare i convertitori: da ogni zip tira fuori gli header .h che il
+firmware si aspetta, e li mette al loro posto dentro SPINNERINO\.
+
+Alla fine ti dice cosa e' andato bene e cosa manca.
+
+  "zip mancante"     ->  quel gioco non ce l'hai. Nessun problema: al suo
+                         posto viene messo un SEGNAPOSTO, il progetto
+                         COMPILA lo stesso e quel gioco semplicemente non
+                         parte. Quando trovi la zip, rimettila in ROMS\ e
+                         rilancia prepara: puoi rilanciarlo quante volte
+                         vuoi.
+
+  "ERRORE"           ->  quello va guardato. Il dettaglio completo finisce
+                         in prepara_errori.txt.
+
+
+ALTRE COSE CHE PUOI FARE
+------------------------
+  python prepara.py --elenco     dice solo cosa manca, senza toccare niente
+  python prepara.py galaga       lancia solo i convertitori di quel gioco
+  python prepara.py --senza-video   rifa' tutto SALVO i laserdisc. Da usare
+                                 ogni volta che aggiungi una zip nuova: i
+                                 video sono gia' fatti e sono ore di lavoro.
+  python prepara.py --loghi      rifa' anche i loghi (NON serve: i loghi
+                                 sono gia' nel pacchetto, e per rifarli
+                                 servirebbero le immagini originali)
+
+  PROVA RAPIDA DEI LASERDISC, prima di impegnare una notte:
+      cd CONVERTITORI
+      python build_laserdisc.py --prova
+  Fa due clip per gioco (cinque minuti) e ti dice se ffmpeg e i pacchetti
+  sono a posto. La SD che ne esce NON e' giocabile: e' solo un controllo,
+  poi cancella le cartelle dl\ ace\ dl2\ e lancia prepara per davvero.
+
+
+COSA C'E' GIA' DENTRO, E NON DEVI RIGENERARE
+--------------------------------------------
+  - tutto il codice: i giochi, i menu, i core delle CPU emulate, i due
+    sketch del ponte C6
+  - i loghi, le copertine e la schermata di avvio
+  - dl_scenes.h, cioe' lo script di gioco di Dragon's Lair (viene da
+    DirkSimple, che e' open source)
+  - i campioni audio digitalizzati di Donkey Kong e Galaga, in
+    CONVERTITORI\campioni\ (108 KB). Non si ricavano da nessuna zip MAME.
+    Se preferisci non averli, cancella quella cartella: quegli effetti
+    diventano segnaposto e i giochi partono lo stesso.
+  - le patch di Gyruss e Xevious, in CONVERTITORI\gyruss_patches\ e
+    \xevious_patches\: sono correzioni che nella ROM non ci sono e senza
+    le quali quei due giochi escono con la grafica sbagliata.
+  - la backup RAM di Metal Slug 2, in CONVERTITORI\neogeo_sram\ (212 valori).
+    Senza, il gioco NON PARTE: la protezione SNK trova la memoria vergine e
+    si ferma su "ORIGINAL SNK BOARDS ONLY". Non sta in nessuna zip.
+  - una trentina di piccole TABELLE DI COLORE (circa 1.300 valori, ~2 KB in
+    tutto): pacman_cmap.h, frogger_cmap.h, commando_cmap_*.h, popeye_prom_*.h
+    e simili. Vengono dalle PROM dei cabinati, ma nessun convertitore
+    conosciuto le riproduce coi valori giusti, quindi viaggiano gia' fatte.
+    Togliendole, quei giochi girano coi colori sbagliati.
+
+
+COSA NON C'E' DENTRO, E PERCHE'
+-------------------------------
+  Questo pacchetto NON contiene un byte di ROM dei giochi. I 321 header che
+  nascono dalle ROM NON CI SONO: li scrive prepara, dalle tue zip. Nel
+  pacchetto ne resta solo la forma vuota, in CONVERTITORI\SEGNAPOSTO\ -
+  serve a prepara per far compilare il progetto anche quando una zip non
+  ce l'hai (quel gioco poi non parte). Verificato contando i numeri
+  (esadecimali E decimali) di ogni file rimasto.
+  Non ci sono nemmeno i video dei laserdisc ne' i file per la microSD:
+  ROMS\, VIDEO\ e DA COPIARE SU SD\ sono vuote, con dentro un elenco di
+  cosa serve.
+
+  Non c'e' ffmpeg (195 MB): scaricalo da https://ffmpeg.org e mettilo nel
+  PATH, oppure copia la sua cartella qui dentro dentro FFMPEG\ - i
+  convertitori dei video lo cercano in tutt'e due i posti.
+
+
+COSA NON E' ANCORA PERFETTO
+---------------------------
+  Le TAVOLOZZE di 1942 (3 file), di Road Fighter (1) e di Xevious (1)
+  escono con qualche tinta diversa dall'originale. I giochi funzionano;
+  e' solo colore.
+  Il perche' e' lo stesso per tutti e tre: il progetto usa una formula dei
+  colori che non si ricava dalle PROM. Per Xevious si vede bene: la sua
+  tavolozza ha 31 livelli di rosso distinti, mentre le PROM sono a 4 bit e
+  di livelli ne possono dare 16. Quei colori non vengono da li'.
+  Tutto il resto della grafica di Xevious (sfondo, tile, caratteri,
+  scorrimento) esce IDENTICO all'originale, valore per valore.
+
+
+SE QUALCOSA NON TORNA
+---------------------
+  - "Manca pillow / numpy: provo a installarlo da solo": lascialo fare.
+    Se poi dice che NON ci e' riuscito (di solito manca internet), apri una
+    finestra CMD e scrivi:   pip install pillow numpy   e rilancia.
+      pillow serve a TUTTO: senza, non si rigenera niente.
+      numpy serve a 1944, al NEO GEO e alle esplosioni di XEVIOUS: senza,
+      quei tre restano col segnaposto e non partono.
+  - un convertitore dice che non trova un file di ROM dentro la zip: la tua
+    zip e' di un set diverso da quello che si aspetta. Serve quel set li'.

@@ -1,0 +1,14 @@
+VIDEO - i 3 pacchetti Daphne dei laserdisc
+==========================================
+
+  Dragon's Lair 2.zip
+  Space Ace.zip
+  dl_ntsc.zip
+
+Servono solo per Dragon's Lair, Space Ace e Dragon's Lair 2.
+Se non li metti, gli altri giochi funzionano lo stesso.
+La conversione dei video e' di qualche ORA: provala prima con
+  cd CONVERTITORI
+  python build_laserdisc.py --prova
+
+I file si possono trovare qui: https://archive.org/download/LASERDISC_GAMES/

@@ -1,0 +1,69 @@
+ROMS - le 58 zip MAME che servono
+=================================
+
+  1942.zip
+  1944.zip
+  ace.zip
+  aof2.zip
+  arkangc.zip
+  arknoid2.zip
+  boblbobl.zip
+  bombbee.zip
+  bombjack.zip
+  brubber.zip
+  commando.zip
+  dkong.zip
+  dkong3.zip
+  dkongjr.zip
+  dkongjrj.zip
+  fantasy.zip
+  fantasyu.zip
+  frogger.zip
+  galaga.zip
+  galaxian.zip
+  gberet.zip
+  ghouls.zip
+  gigasb.zip
+  gigasm2b.zip
+  gng.zip
+  gngeo_data.zip
+  goindol.zip
+  greenberet.zip
+  gyruss.zip
+  invaders.zip
+  ladybug.zip
+  mario.zip
+  mariobros.zip
+  mooncresta.zip
+  mooncrst.zip
+  motorace.zip
+  mpatrol.zip
+  mslug.zip
+  mslug2.zip
+  mslug3.zip
+  mspacman.zip
+  neogeo.zip
+  nibbler.zip
+  outrun.zip
+  pacman.zip
+  pang.zip
+  pbaction.zip
+  phoenix.zip
+  popeye.zip
+  roadf2.zip
+  sbrkout.zip
+  scobra.zip
+  scramble.zip
+  supxevs.zip
+  tempest.zip
+  timeplt.zip
+  xevios.zip
+  xevious.zip  gaplus.zip
+  gaplus_samples.zip
+  viewpoin.zip
+  pulstar.zip 
+Mettile qui dentro, col nome che hanno in MAME, poi lancia
+prepara.bat nella cartella sopra.
+Chi ne mette solo alcune: gli altri giochi restano segnaposto e il
+progetto compila lo stesso.
+NOTA: xevious vuole TUTT'E DUE, xevious.zip e xevios.zip.

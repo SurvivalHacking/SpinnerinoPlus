@@ -1,0 +1,9 @@
+Questa cartella la riempie prepara.bat.
+
+Dentro ci finiscono i dati che vari giochi leggono dalla
+microSD invece che dalla memoria del programma:
+  1944 - Ghouls'n Ghosts - Out Run - Neo Geo (varie rom)
+  Dragon's Lair - Space Ace - Dragon's Lair 2
+
+Quando prepara ha finito, copia TUTTO il contenuto di questa
+cartella nella RADICE della microSD (formattata FAT32).
