@@ -85,7 +85,7 @@ NOTA: E' stato aggiornato il convertitore che ora funziona anche su MAC e Linux 
 
 * Display con encoder 2.4": https://amzn.to/4j3imzh
 * ESP32 P4 WIFI: https://amzn.to/3VtRGxO
-* Joystick 10x10x9mm: https://s.click.aliexpress.com/e/_c3f7PQub
+* Joystick 10x10x9mm: https://s.click.aliexpress.com/e/_c4BVBbZr
 * Pulsanti 4x4x4.3mm: https://s.click.aliexpress.com/e/_c35iN1q1
 * BMS FM5324: https://s.click.aliexpress.com/e/_c3Ug7Bln
 * BMS IP5306: https://s.click.aliexpress.com/e/_c35Euvxf
