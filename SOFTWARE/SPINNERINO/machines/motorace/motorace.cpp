@@ -219,11 +219,15 @@ void motorace::snd_port_write(uint8_t port, uint8_t val) {
           unsigned char reg = ay_addr[0] & 0x0F;
           ay_regs[0][reg] = snd_port1;
           if (reg < 14) soundregs[reg] = snd_port1;
+          // ripartenza dell'inviluppo a OGNI scrittura del registro 13 (anche
+          // con lo stesso valore): la conta in soundregs[14], come Moon Patrol
+          if (reg == 13) soundregs[14]++;
         }
         if (snd_port2 & 0x10) {
           unsigned char reg = ay_addr[1] & 0x0F;
           ay_regs[1][reg] = snd_port1;
           if (reg < 14) soundregs[16 + reg] = snd_port1;
+          if (reg == 13) soundregs[16 + 14]++;   // idem per il secondo AY
         }
       }
       m6803_internal_ram[0x3D] = 1;
