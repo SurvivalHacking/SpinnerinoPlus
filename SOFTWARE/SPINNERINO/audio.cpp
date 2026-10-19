@@ -467,11 +467,10 @@ void Audio::ay_render_buffer(void) {
     for(char c = 0; c < 3; c++) {
       ay_period[ay][c] = currentMachine->soundregs[ay_off + 2 * c] + 256 * (currentMachine->soundregs[ay_off + 2 * c + 1] & 15);
       ay_enable[ay][c] = (((currentMachine->soundregs[ay_off + 7] >> c) & 1) | ((currentMachine->soundregs[ay_off + 7] >> (c + 2)) & 2)) ^ 3;
-#ifdef ENABLE_MOTORACE
-      // MotoRace: muta il noise channel AY (engine drone) che sovrasta la
-      // musica. Il LFSR continua a girare, ma non viene mixato sui canali tone.
-      if (machineType == MCH_MOTORACE) ay_enable[ay][c] &= 1;
-#endif
+      // ⛔ MotoRace (19/10): il rumore NON si zittisce piu'. Il «drone» che
+      // copriva la musica era la BATTERIA (rumore + inviluppo 0x09) suonata a
+      // volume 15 fisso: ora MotoRace passa dal ramo con l'inviluppo di Moon
+      // Patrol (stessa scheda Irem M52), come sul GALAGONE.
       { uint8_t vreg = currentMachine->soundregs[ay_off + 8 + c];
         // Per giochi che usano envelope (BombJack, Arkanoid) preserva il bit 4
         // (envelope-mode flag) cosi' il render path puo' distinguerlo.
@@ -704,11 +703,9 @@ void Audio::ay_render_buffer(void) {
 #ifdef ENABLE_TUTANKHM
        machineType == MCH_TUTANKHM ||
 #endif
-#ifdef ENABLE_MOTORACE
-       machineType == MCH_MOTORACE ||
-#endif
        // ⛔ MOON PATROL non passa piu' di qui (25/09): ha il ramo suo, sotto,
        // con l'INVILUPPO — la sua batteria e' rumore + inviluppo 0x09.
+       // ⛔ MOTORACE neppure (19/10): stessa scheda, stessa batteria (cmd 0x9C).
 #ifdef ENABLE_SCRAMBLE
        machineType == MCH_SCRAMBLE ||
 #endif
@@ -771,7 +768,7 @@ void Audio::ay_render_buffer(void) {
       }
 #endif
     }
-#ifdef ENABLE_MOONPATROL
+#if defined(ENABLE_MOONPATROL) || defined(ENABLE_MOTORACE)
     // >>> MP_BATTERIA (25/09) -------------------------------------------------
     // ⭐ MOON PATROL: il ramo AY generico (qui sopra) con UNA sola aggiunta,
     // l'INVILUPPO. Toni e rumore sono copiati riga per riga dal ramo generico:
@@ -788,7 +785,17 @@ void Audio::ay_render_buffer(void) {
     //      d'inviluppo: il colpo e' secco, niente coda che impasta.
     // La ripartenza avviene a OGNI scrittura del registro 13 (contatore in
     // soundregs[14] / [30], lo incrementa moonpatrol.cpp).
-    else if (machineType == MCH_MOONPATROL) {
+    // ⭐ 19/10: ci passa anche MOTORACE (stessa scheda Irem M52, la batteria
+    // della musica di partenza e' il cmd 0x9C: rumore + inviluppo 0x09, EP
+    // 0x0400). Sul GALAGONE la stessa cura e' stata provata: «funziona».
+    else if (
+#ifdef ENABLE_MOONPATROL
+             machineType == MCH_MOONPATROL ||
+#endif
+#ifdef ENABLE_MOTORACE
+             machineType == MCH_MOTORACE ||
+#endif
+             false) {
       // DAC dell'AY (tabella AYUMI/MAME), 8190 = 15 x 546
       static const short AY_LOG[16] = { 0, 82, 118, 172, 251, 373, 528, 879,
                                         1037, 1679, 2393, 3054, 4034, 5203, 6598, 8190 };
